@@ -2,6 +2,7 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
+    "@types/react": "^19.0.2",
     "@vitejs/plugin-react": "^4.3.4",
     "antd": "^5.22.7",
     "react": "18.3.1",
