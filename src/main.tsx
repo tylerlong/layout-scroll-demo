@@ -1,4 +1,4 @@
-import { Layout, theme } from "antd";
+import { Button, Input, Layout, theme } from "antd";
 import React from "react";
 import MarkPlus from "react-markplus";
 
@@ -19,9 +19,15 @@ const Main = () => {
             height: "100%",
             padding: "1rem",
             borderRadius: borderRadiusLG,
+            display: "flex",
+            flexDirection: "column",
           }}
         >
-          <MarkPlus markdown="# Hello world" />
+          <Input placeholder="Basic usage" style={{ marginBottom: "1rem" }} />
+          <div style={{ flex: 1, overflow: "hidden" }}>
+            <MarkPlus markdown="# Hello world" />
+          </div>
+          <Button block style={{ marginTop: "1rem" }}>Finish Editing</Button>
         </div>
       </Content>
       <Footer>Footer</Footer>
