@@ -24,7 +24,14 @@ const Main = () => {
           }}
         >
           <Input placeholder="Basic usage" style={{ marginBottom: "1rem" }} />
-          <div style={{ flex: 1, overflow: "hidden" }}>
+          <div
+            style={{
+              flex: 1,
+              overflow: "hidden",
+              border: "1px dashed lightgray",
+              borderRadius: borderRadiusLG,
+            }}
+          >
             <MarkPlus markdown="# Hello world" />
           </div>
           <Button block style={{ marginTop: "1rem" }}>Finish Editing</Button>
