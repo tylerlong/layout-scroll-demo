@@ -10,7 +10,7 @@ const Main = () => {
   } = theme.useToken();
 
   return (
-    <Layout style={{ height: "100vh", overflow: "hidden" }}>
+    <Layout style={{ height: "100vh" }}>
       <Header>Header</Header>
       <Content style={{ padding: "1rem 2rem" }}>
         <div
