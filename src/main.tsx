@@ -9,13 +9,13 @@ const Main = () => {
   } = theme.useToken();
 
   return (
-    <Layout>
+    <Layout style={{ height: "100vh", overflow: "hidden" }}>
       <Header>Header</Header>
       <Content style={{ padding: "1rem 2rem" }}>
         <div
           style={{
             background: colorBgContainer,
-            minHeight: 280,
+            height: "100%",
             padding: "1rem",
             borderRadius: borderRadiusLG,
           }}
