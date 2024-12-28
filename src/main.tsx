@@ -1,5 +1,6 @@
 import { Layout, theme } from "antd";
 import React from "react";
+import MarkPlus from "react-markplus";
 
 const { Header, Content, Footer } = Layout;
 
@@ -20,7 +21,7 @@ const Main = () => {
             borderRadius: borderRadiusLG,
           }}
         >
-          Content
+          <MarkPlus markdown="# Hello world" />
         </div>
       </Content>
       <Footer>Footer</Footer>

@@ -7,6 +7,7 @@
     "antd": "^5.22.7",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "react-markplus": "^0.2.7",
     "sass-embedded": "^1.83.0",
     "vite": "^6.0.6"
   }
